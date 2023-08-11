@@ -2,9 +2,9 @@
 
 namespace Blastedcode\NovaAstrotomicTranslatable;
 
+use Blastedcode\NovaAstrotomicTranslatable\Commands\NovaAstrotomicTranslatableCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Blastedcode\NovaAstrotomicTranslatable\Commands\NovaAstrotomicTranslatableCommand;
 
 class NovaAstrotomicTranslatableServiceProvider extends PackageServiceProvider
 {

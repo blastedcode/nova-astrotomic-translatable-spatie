@@ -2,9 +2,9 @@
 
 namespace Blastedcode\NovaAstrotomicTranslatable\Tests;
 
+use Blastedcode\NovaAstrotomicTranslatable\NovaAstrotomicTranslatableServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Blastedcode\NovaAstrotomicTranslatable\NovaAstrotomicTranslatableServiceProvider;
 
 class TestCase extends Orchestra
 {
