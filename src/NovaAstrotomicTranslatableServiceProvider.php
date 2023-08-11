@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Blastedcode\NovaAstrotomicTranslatable;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Blastedcode\NovaAstrotomicTranslatable\Commands\NovaAstrotomicTranslatableCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class NovaAstrotomicTranslatableServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('nova-astrotomic-translatable')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_nova-astrotomic-translatable_table')
+            ->hasCommand(NovaAstrotomicTranslatableCommand::class);
     }
 }

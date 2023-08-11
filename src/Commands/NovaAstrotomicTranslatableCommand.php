@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Blastedcode\NovaAstrotomicTranslatable\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class NovaAstrotomicTranslatableCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'nova-astrotomic-translatable';
 
     public $description = 'My command';
 
